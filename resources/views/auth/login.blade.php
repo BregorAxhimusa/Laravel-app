@@ -44,4 +44,10 @@
             </x-primary-button>
         </div>
     </form>
+
+    <div class="text-center my-4">
+        <a href="{{ route('google-auth') }}">
+            <span class="text-sm text-left ml-4">Continue with Google</span>
+        </a>
+    </div>
 </x-guest-layout>
